@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Bebas+Neue&family=Jersey+25&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: #000000; */
+}
+
+#nav {
+    font-size: 2vw;
+    padding: 1.5vw 2vw;
+    width: 100%;
+    color: black;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    font-weight: 900;
+}
+
+#nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav #mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    /* background-color: red; */
+}
+
+#nav h3 {
+    border: 2px solid black;
+    padding: 1.2vw 3vw;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+#p1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cenleft {
+    width: 60%;
+    height: 100%;
+
+    padding-left: 2vw;
+}
+
+#cenleft h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6.8vw;
+
+}
+
+#cenleft p {
+    font-weight: 900;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 1vw;
+    padding: 2vw 0px;
+}
+
+#cenleft #btn {
+    font-size: 2vw;
+    padding: .8vw 2vw;
+    font-family: "Anek Devanagari", sans-serif;
+    display: inline;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#cenright {
+    width: 60%;
+    height: 100%;
+
+}
+
+#cenright img {
+    height: 100%;
+    padding: 1.5vw;
+}
+
+#bottom {
+    margin: 2vw 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+    height: 15%;
+
+}
+
+#bottom img {
+    width: 10%;
+}
+
+#p2 {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#p2top {
+    width: 100%;
+    /* margin-left: 1vw; */
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding: 2vw 2vw;
+}
+
+#p2top h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4vw;
+    padding: .4vw 2vw;
+    background-color: #b9ff66;
+    border-radius: 10px;
+}
+
+#p2top p {
+    margin-left: 1.5vw;
+
+
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+#p2mid {
+
+    width: 100%;
+    height: 90vh;
+
+}
+
+#cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw 2vw;
+    justify-content: space-between;
+
+
+}
+
+.card {
+    flex-shrink: 0;
+
+    margin-bottom: 4vw;
+    height: 242px;
+    width: 575px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: red; */
+    font-family: "Anek Devanagari", sans-serif;
+    display: flex;
+    box-shadow: 5px 5px 3px rgb(0, 0, 0);
+}
+
+.card-w>.cardl {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding: 1.5vw 2vw;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: wheat; */
+
+}
+
+.card-w>.cardl h1 {
+    font-size: 2.6vw;
+    background-color: #b9ff66;
+    line-height: .8;
+    border-radius: 8px;
+    padding: .2vw .2vw;
+}
+
+.card-w>.cardr {
+    width: 50%;
+    height: 100%;
+    padding: 1vw 2vw;
+    /* background-color: red; */
+}
+
+.card-w>.cardl i {
+    color: #b9ff66;
+    background-color: black;
+    font-size: 2vw;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.card-w>.cardl p {
+    font-size: 2vw;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 500;
+}
+
+.card-w>.cardr img {
+    width: 100%;
+
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-b>.cardl {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding: 1.5vw 2vw;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: wheat; */
+
+}
+
+.card-b>.cardl h1 {
+    font-size: 2.6vw;
+    background-color: #ffffff;
+    line-height: .8;
+    border-radius: 8px;
+    padding: .2vw .2vw;
+}
+
+.card-b>.cardr {
+    width: 50%;
+    height: 100%;
+    padding: 1vw 2vw;
+    background-color: black;
+}
+
+.card-b>.cardl i {
+   color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 2vw;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.card-b>.cardl p {
+    color: white;
+    font-size: 2vw;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 500;
+}
+
+.card-b>.cardr img {
+    width: 100%;
+
+    object-fit: cover;
+    object-position: top;
+}
